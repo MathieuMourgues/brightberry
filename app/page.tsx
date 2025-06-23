@@ -12,7 +12,7 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Brightmap transforme les commentaires YouTube en insights
-              émotionnels puissants grâce à l'IA et la roue des émotions de
+              émotionnels puissants grâce à l&apos;IA et la roue des émotions de
               Plutchik
             </p>
             <div className="mb-8">
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-blue-500 text-4xl mb-4">📊</div>
                 <h3 className="text-xl font-semibold mb-4">
-                  Manque d'insights concrets
+                  Manque d&apos;insights concrets
                 </h3>
                 <p className="text-gray-600">
                   Difficile de savoir quelles créations résonnent vraiment et
@@ -226,7 +226,7 @@ export default function Home() {
                   5 minutes vs 5 heures
                 </h3>
                 <p className="text-gray-600">
-                  Comprenez l'impact de vos vidéos instantanément au lieu de
+                  Comprenez l&apos;impact de vos vidéos instantanément au lieu de
                   passer des heures à lire les commentaires.
                 </p>
               </div>
@@ -237,7 +237,7 @@ export default function Home() {
                   Validation de concepts
                 </h3>
                 <p className="text-gray-600">
-                  Testez l'intérêt pour vos idées dès leur publication et
+                  Testez l&apos;intérêt pour vos idées dès leur publication et
                   ajustez votre stratégie en temps réel.
                 </p>
               </div>
@@ -277,9 +277,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-700 italic">
-                  "Brightmap m'a fait réaliser que mes vidéos de cuisine
-                  créaient plus de nostalgie que de faim chez mes viewers. J'ai
-                  adapté mon contenu et mes vues ont explosé !"
+                  &quot;Brightmap m&apos;a fait réaliser que mes vidéos de cuisine
+                  créaient plus de nostalgie que de faim chez mes viewers. J&apos;ai
+                  adapté mon contenu et mes vues ont explosé !&quot;
                 </p>
                 <div className="mt-4 text-yellow-400">⭐⭐⭐⭐⭐</div>
               </div>
@@ -295,9 +295,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-700 italic">
-                  "Enfin un outil qui me protège des commentaires toxiques tout
+                  &quot;Enfin un outil qui me protège des commentaires toxiques tout
                   en me donnant de vrais insights ! Ma santé mentale et ma
-                  créativité se portent mieux."
+                  créativité se portent mieux.&quot;
                 </p>
                 <div className="mt-4 text-yellow-400">⭐⭐⭐⭐⭐</div>
               </div>
@@ -313,9 +313,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-700 italic">
-                  "La roue des émotions m'a révélé que mes tutorials tech
-                  généraient plus de confiance que prévu. J'ai lancé une
-                  formation, sold out en 2h !"
+                  &quot;La roue des émotions m&apos;a révélé que mes tutorials tech
+                  généraient plus de confiance que prévu. J&apos;ai lancé une
+                  formation, sold out en 2h !&quot;
                 </p>
                 <div className="mt-4 text-yellow-400">⭐⭐⭐⭐⭐</div>
               </div>
@@ -359,7 +359,7 @@ export default function Home() {
                 </h3>
                 <p className="text-gray-600">
                   Notre IA filtre et analyse les commentaires négatifs pour vous
-                  fournir des insights sur l'impact émotionnel sans vous exposer
+                  fournir des insights sur l&apos;impact émotionnel sans vous exposer
                   directement aux messages blessants. Vous gardez le contrôle
                   sur votre bien-être mental.
                 </p>
@@ -367,7 +367,7 @@ export default function Home() {
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold mb-3">
-                  La roue des émotions de Plutchik, c'est fiable ?
+                  La roue des émotions de Plutchik, c&apos;est fiable ?
                 </h3>
                 <p className="text-gray-600">
                   Absolument ! Les travaux du professeur Robert Plutchik sont
@@ -393,8 +393,8 @@ export default function Home() {
                   Ça marche pour toutes les tailles de chaînes ?
                 </h3>
                 <p className="text-gray-600">
-                  Oui ! Que vous ayez 100 ou 100K abonnés, Brightmap s'adapte.
-                  Plus vous avez de commentaires, plus l'analyse est précise,
+                  Oui ! Que vous ayez 100 ou 100K abonnés, Brightmap s&apos;adapte.
+                  Plus vous avez de commentaires, plus l&apos;analyse est précise,
                   mais même avec peu de données, vous obtenez des insights
                   utiles.
                 </p>
@@ -480,7 +480,7 @@ export default function Home() {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Brightberry</h3>
             <p className="text-gray-400 mb-6">
-              L'intelligence collective au service des créateurs
+              L&apos;intelligence collective au service des créateurs
             </p>
             <div className="flex justify-center gap-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">
