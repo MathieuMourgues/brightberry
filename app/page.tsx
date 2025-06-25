@@ -131,7 +131,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">
+                    <h3 className="text-xl font-semibold mb-2 text-gray-900">
                       Analyse IA instantanée
                     </h3>
                     <p className="text-gray-600">
@@ -158,7 +158,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">
+                    <h3 className="text-xl font-semibold mb-2 text-gray-900">
                       Roue des émotions de Plutchik
                     </h3>
                     <p className="text-gray-600">
@@ -185,7 +185,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">
+                    <h3 className="text-xl font-semibold mb-2 text-gray-900">
                       Protection contre la toxicité
                     </h3>
                     <p className="text-gray-600">
@@ -211,8 +211,8 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-4xl mb-4">📈</div>
-                <h3 className="text-2xl font-semibold mb-4">
-                  +87% de contenus engageants
+                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
+                  Plus de contenus engageants
                 </h3>
                 <p className="text-gray-600">
                   Créez du contenu qui résonne vraiment avec votre audience
@@ -222,7 +222,7 @@ export default function Home() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-4xl mb-4">⚡</div>
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                   5 minutes vs 5 heures
                 </h3>
                 <p className="text-gray-600">
@@ -233,7 +233,7 @@ export default function Home() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-4xl mb-4">🎯</div>
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                   Validation de concepts
                 </h3>
                 <p className="text-gray-600">
@@ -244,7 +244,7 @@ export default function Home() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-4xl mb-4">🛡️</div>
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
                   Bien-être préservé
                 </h3>
                 <p className="text-gray-600">
@@ -272,7 +272,7 @@ export default function Home() {
                     M
                   </div>
                   <div className="ml-3">
-                    <h4 className="font-semibold">Marie L.</h4>
+                    <h4 className="font-semibold text-gray-900">Marie L.</h4>
                     <p className="text-sm text-gray-600">350K abonnés</p>
                   </div>
                 </div>
@@ -290,7 +290,7 @@ export default function Home() {
                     T
                   </div>
                   <div className="ml-3">
-                    <h4 className="font-semibold">Thomas K.</h4>
+                    <h4 className="font-semibold text-gray-900">Thomas K.</h4>
                     <p className="text-sm text-gray-600">125K abonnés</p>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function Home() {
                     S
                   </div>
                   <div className="ml-3">
-                    <h4 className="font-semibold">Sofia R.</h4>
+                    <h4 className="font-semibold text-gray-900">Sofia R.</h4>
                     <p className="text-sm text-gray-600">80K abonnés</p>
                   </div>
                 </div>
@@ -354,7 +354,7 @@ export default function Home() {
 
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">
                   Comment Brightmap protège-t-il des commentaires toxiques ?
                 </h3>
                 <p className="text-gray-600">
@@ -366,7 +366,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">
                   La roue des émotions de Plutchik, c&apos;est fiable ?
                 </h3>
                 <p className="text-gray-600">
@@ -378,7 +378,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">
                   Combien de temps prend une analyse ?
                 </h3>
                 <p className="text-gray-600">
@@ -389,7 +389,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">
                   Ça marche pour toutes les tailles de chaînes ?
                 </h3>
                 <p className="text-gray-600">
