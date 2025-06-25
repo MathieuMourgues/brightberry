@@ -51,7 +51,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-red-500 text-4xl mb-4">😰</div>
-                <h3 className="text-xl font-semibold mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   Commentaires toxiques
                 </h3>
                 <p className="text-gray-900">
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-orange-500 text-4xl mb-4">🤔</div>
-                <h3 className="text-xl font-semibold mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   Feedback difficile à analyser
                 </h3>
                 <p className="text-gray-600">
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-blue-500 text-4xl mb-4">📊</div>
-                <h3 className="text-xl font-semibold mb-4">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   Manque d&apos;insights concrets
                 </h3>
                 <p className="text-gray-600">
