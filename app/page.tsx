@@ -5,6 +5,11 @@ export default function Home() {
       <section className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white">
         <div className="container mx-auto px-6 py-20">
           <div className="max-w-4xl mx-auto text-center">
+            
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+              Ce site est en construction : contacter nous par mail : contact@brightberry.fr
+            </h1>
+            
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Découvrez le{" "}
               <span className="text-yellow-400">vrai ressenti</span> de votre
