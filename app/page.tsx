@@ -54,7 +54,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4">
                   Commentaires toxiques
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-900">
                   Les messages haineux et violents touchent profondément les
                   créateurs et nuisent à leur bien-être mental.
                 </p>
