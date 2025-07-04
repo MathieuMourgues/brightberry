@@ -7,7 +7,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Ce site est en construction : contacter nous par mail : contact@brightberry.fr
+              Ce site est en construction : contactez nous par mail : contact@brightberry.fr
             </h1>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
