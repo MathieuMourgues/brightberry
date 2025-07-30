@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Link href="/Privacy">
                 <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
                 Aller à la nouvelle page
+                    <Analytics />
                 </button>
             </Link>
 
