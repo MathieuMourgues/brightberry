@@ -30,7 +30,7 @@ export default function Home() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-red-500 text-4xl mb-4">😰</div>
+                <div className="text-red-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   1. Who We Are
                 </h3>
@@ -44,7 +44,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-orange-500 text-4xl mb-4">🤔</div>
+                <div className="text-orange-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   2. Data Collected
                 </h3>
@@ -64,7 +64,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   3. Purpose of Processing
                 </h3>
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   4. Data Sharing
                 </h3>
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   5. Children
                 </h3>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   6. Data Security and Retention
                 </h3>
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   7. User Rights
                 </h3>
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   8. Changes to This Policy
                 </h3>
@@ -144,7 +144,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   9. Contact
                 </h3>
@@ -155,7 +155,7 @@ export default function Home() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-blue-500 text-4xl mb-4">📊</div>
+                <div className="text-blue-500 text-4xl mb-4"></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   10. Data Access, Modification, or Deletion
                 </h3>
