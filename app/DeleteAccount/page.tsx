@@ -29,8 +29,8 @@ export default function Home() {
               Open the Brightberry app on your device.
               Tap the 👤 profile icon in the top right corner of the screen.
               If you are not logged in, sign in using your email address and password. Then return to your profile.
-              Tap the "Delete Account" button.
-              Confirm the action by tapping "Yes".
+              Tap the &quot;Delete Account&quot; button.
+              Confirm the action by tapping &quot;Yes&quot;.
 
               Your account and all associated data will be permanently deleted immediately.
 
