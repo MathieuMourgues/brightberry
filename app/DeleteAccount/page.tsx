@@ -22,9 +22,6 @@ export default function Home() {
               Account deletion procedure
             </h2>
 
-            <h3 className="text-xl font-semibold mb-4 text-gray-900">
-                  1. Who We Are
-            </h3>
             <p className="text-center text-gray-900">
               Open the Brightberry app on your device.
               Tap the 👤 profile icon in the top right corner of the screen.

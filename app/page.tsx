@@ -13,21 +13,6 @@ export default function Home() {
               Ce site est en construction : contactez nous par mail : contact@brightberry.fr
             </h1>
 
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/Privacy">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Aller à la nouvelle page
-                    <Analytics />
-                </button>
-            </Link>
-
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/DeleteAccount">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Aller à la nouvelle page
-                </button>
-            </Link>
-
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Découvrez le{" "}
               <span className="text-yellow-400">vrai ressenti</span> de votre
@@ -438,6 +423,21 @@ export default function Home() {
               Rejoignez les créateurs qui prennent des décisions éclairées grâce
               aux insights émotionnels de Brightmap.
             </p>
+
+            {/* Bouton pour accéder à la nouvelle page */}
+            <Link href="/Privacy">
+                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+                Privacy Policy
+                    <Analytics />
+                </button>
+            </Link>
+
+            {/* Bouton pour accéder à la nouvelle page */}
+            <Link href="/DeleteAccount">
+                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+                Delete Account
+                </button>
+            </Link>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
               <div className="grid md:grid-cols-3 gap-6 text-center">
