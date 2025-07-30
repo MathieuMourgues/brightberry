@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -11,20 +10,6 @@ export default function Home() {
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Ce site est en construction : contactez nous par mail : contact@brightberry.fr
             </h1>
-
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/Privacy">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Aller à la nouvelle page
-                </button>
-            </Link>
-
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/DeleteAccount">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Aller à la nouvelle page
-                </button>
-            </Link>
 
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Découvrez le{" "}
@@ -523,9 +508,6 @@ export default function Home() {
     </div>
   );
 }
-
-
-
 
 
 
