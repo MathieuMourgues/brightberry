@@ -424,21 +424,6 @@ export default function Home() {
               aux insights émotionnels de Brightmap.
             </p>
 
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/Privacy">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Privacy Policy
-                    <Analytics />
-                </button>
-            </Link>
-
-            {/* Bouton pour accéder à la nouvelle page */}
-            <Link href="/DeleteAccount">
-                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
-                Delete Account
-                </button>
-            </Link>
-
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
@@ -519,6 +504,21 @@ export default function Home() {
             <div className="mt-6 text-sm text-gray-500">
               © 2024 Brightberry. Tous droits réservés.
             </div>
+
+            {/* Bouton pour accéder à la nouvelle page */}
+            <Link href="/Privacy">
+                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+                Privacy Policy
+                    <Analytics />
+                </button>
+            </Link>
+
+            {/* Bouton pour accéder à la nouvelle page */}
+            <Link href="/DeleteAccount">
+                <button style={{ padding: '10px 20px', backgroundColor: '#0070f3', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+                Delete Account
+                </button>
+            </Link>
           </div>
         </div>
       </footer>
