@@ -14,7 +14,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Last Updated: 2025-07-28
               This Privacy Policy describes how Brightberry SAS
-               (hereinafter "we", "our", or "us") collects, uses, stores,
+               (hereinafter &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collects, uses, stores,
                and protects the personal data of users of its applications
             </p>
           </div>
