@@ -10,6 +10,7 @@ export default function Home() {
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Ce site est en construction : contactez nous par mail : contact@brightberry.fr
+              <Analytics />
             </h1>
 
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
