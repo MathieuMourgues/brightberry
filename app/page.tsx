@@ -491,7 +491,7 @@ export default function Home() {
               L&apos;intelligence collective au service des créateurs
             </p>
             <div className="flex justify-center gap-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="/Privacy" className="hover:text-white transition-colors">
                 Confidentialité
               </a>
               <a href="#" className="hover:text-white transition-colors">
@@ -499,6 +499,9 @@ export default function Home() {
               </a>
               <a href="#" className="hover:text-white transition-colors">
                 Contact
+              </a>
+              <a href="/DeleteAccount" className="hover:text-white transition-colors">
+                Suppression de compte
               </a>
             </div>
             <div className="mt-6 text-sm text-gray-500">
