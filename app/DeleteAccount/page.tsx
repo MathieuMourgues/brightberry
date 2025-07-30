@@ -48,7 +48,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   2. Data Collected
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   Collected Data:
                     - Email address (via sign-up form)
                     - Device identifier (if applicable)
@@ -68,7 +68,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   3. Purpose of Processing
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   The collected data is used to:
                     - Create and manage user accounts
                     - Ensure secure access to the apps
@@ -82,7 +82,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   4. Data Sharing
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   We do not sell or share your personal data with third parties for commercial purposes.
 
                   Some services used in our applications may store or process data outside the European Union.
@@ -95,7 +95,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   5. Children
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   Our applications are not intended for children under the age of 13.
                 </p>
               </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   6. Data Security and Retention
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   Data is stored on secure servers.
                   Technical and organizational measures are implemented to ensure data
                   confidentiality and integrity.
@@ -121,7 +121,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   7. User Rights
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   In accordance with the General Data Protection Regulation (GDPR), users have the following rights:
                     - Right of access to their personal data
                     - Right to rectification if data is inaccurate
@@ -137,7 +137,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   8. Changes to This Policy
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   This Privacy Policy may be updated at any time.
                   Users are encouraged to review this policy each time they use our applications.
                 </p>
@@ -148,7 +148,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   9. Contact
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   For any questions regarding this Privacy Policy or your data, please contact:
                   contact@brightberry.fr
                 </p>
@@ -159,7 +159,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">
                   10. Data Access, Modification, or Deletion
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-center text-gray-600">
                   To consult, modify or delete your data, please send an email to contact@brightberry.fr
                   including the identifier used when your account was created.
 
