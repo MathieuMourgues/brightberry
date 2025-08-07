@@ -24,7 +24,10 @@ export default function Home() {
               Plutchik
             </p>
             <div className="mb-8">
-              <button className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center gap-2">
+              <button
+                className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center gap-2"
+                onClick= {href="/Privacy" className="hover:text-white transition-colors">} >
+
                 Analyser ma chaîne gratuitement
                 <svg
                   className="w-5 h-5"
@@ -39,6 +42,7 @@ export default function Home() {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
+
               </button>
             </div>
             <p className="text-sm text-blue-200">
