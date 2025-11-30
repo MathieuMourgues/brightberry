@@ -25,10 +25,9 @@ export default function Home() {
               Plutchik
             </p>
             <div className="mb-8">
-              <a
-                href="/analyze"
+              <button
                 className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center gap-2"
-              >
+                onClick= >
                 Analyser ma chaîne gratuitement
                 <svg
                   className="w-5 h-5"
@@ -43,7 +42,8 @@ export default function Home() {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-              </a>
+
+              </button>
             </div>
             <p className="text-sm text-blue-200">
               ✅ Analyse gratuite • ✅ Résultats en 5 minutes • ✅ Aucune carte
