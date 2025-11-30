@@ -27,7 +27,8 @@ export default function Home() {
             <div className="mb-8">
               <button
                 className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center gap-2"
-                onClick= >
+                onClick={() => window.location.href = '/analyze'}
+              >
                 Analyser ma chaîne gratuitement
                 <svg
                   className="w-5 h-5"
