@@ -1,10 +1,19 @@
-import { Analytics } from "@vercel/analytics/next"
+"use client";
+
+import { Analytics } from "@vercel/analytics/next";
+import AnalyzeButton from "./AnalyzeButton";
 
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
       {/* Hero Section */}
+      <button
+        className="absolute top-4 right-4 bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-400 transition-colors"
+        onClick={() => window.location.href = '/BrightArt'}
+      >
+        Aller à BrightArt
+      </button>
       <section className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white">
         <div className="container mx-auto px-6 py-20">
           <div className="max-w-4xl mx-auto text-center">
@@ -25,26 +34,7 @@ export default function Home() {
               Plutchik
             </p>
             <div className="mb-8">
-              <button
-                className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center gap-2"
-                onClick={() => window.location.href = '/analyze'}
-              >
-                Analyser ma chaîne gratuitement
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-
-              </button>
+              <AnalyzeButton />
             </div>
             <p className="text-sm text-blue-200">
               ✅ Analyse gratuite • ✅ Résultats en 5 minutes • ✅ Aucune carte
