@@ -1,10 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 export default function AnalyzeForm() {
-  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -107,7 +105,7 @@ export default function AnalyzeForm() {
               type="submit"
               className="w-full bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors"
             >
-              Lancer l'analyse
+              Lancer l&apos;analyse
             </button>
           </form>
         </div>

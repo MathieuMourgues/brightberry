@@ -19,10 +19,10 @@ export default function BrightArt() {
       {/* Hero Section */}
       <section className="bg-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">Rendez l'art accessible à tous</h2>
+          <h2 className="text-4xl font-bold mb-6">Rendez l&apos;art accessible à tous</h2>
           <p className="text-lg text-gray-600 mb-8">
             BrightArt offre aux artistes un espace dédié sur le web, accessible via des QR codes,
-            pour enrichir l'expérience des visiteurs sans compromettre la beauté de l'exposition.
+            pour enrichir l&apos;expérience des visiteurs sans compromettre la beauté de l&apos;exposition.
           </p>
           <button
             className="bg-purple-700 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-purple-600 transition-colors"
@@ -49,7 +49,7 @@ export default function BrightArt() {
               <div className="text-6xl mb-4">📱</div>
               <h4 className="text-xl font-semibold mb-4">Éliminez les impressions</h4>
               <p className="text-gray-600">
-                Réduisez les coûts et l'impact environnemental en remplaçant les descriptions imprimées par des contenus numériques.
+                Réduisez les coûts et l&apos;impact environnemental en remplaçant les descriptions imprimées par des contenus numériques.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
@@ -61,7 +61,7 @@ export default function BrightArt() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <div className="text-6xl mb-4">🖼️</div>
-              <h4 className="text-xl font-semibold mb-4">Préservez l'esthétique</h4>
+              <h4 className="text-xl font-semibold mb-4">Préservez l&apos;esthétique</h4>
               <p className="text-gray-600">
                 Maintenez la beauté de vos expositions en évitant les textes volumineux à proximité des œuvres.
               </p>
@@ -70,7 +70,7 @@ export default function BrightArt() {
               <div className="text-6xl mb-4">🔗</div>
               <h4 className="text-xl font-semibold mb-4">Accessibilité universelle</h4>
               <p className="text-gray-600">
-                Permettez à tous les visiteurs, y compris les malvoyants, d'accéder aux informations grâce à des descriptions audio.
+                Permettez à tous les visiteurs, y compris les malvoyants, d&apos;accéder aux informations grâce à des descriptions audio.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
@@ -105,7 +105,7 @@ export default function BrightArt() {
         <div className="container mx-auto px-6 text-center">
           <h4 className="text-xl font-bold mb-4">BrightArt</h4>
           <p className="text-gray-400 mb-6">
-            Rendre l'art accessible à tous, une œuvre à la fois.
+            Rendre l&apos;art accessible à tous, une œuvre à la fois.
           </p>
           <div className="flex justify-center gap-6 text-sm text-gray-400">
             <a href="#" className="hover:text-white transition-colors">Confidentialité</a>
