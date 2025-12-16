@@ -1,6 +1,5 @@
 import { db } from "@/firebaseConfig";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
-import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
