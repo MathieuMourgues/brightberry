@@ -40,14 +40,14 @@ export default async function ArtworkPage({ params }: { params: { id: string } }
           <div className="flex justify-center mb-10">
             <audio controls className="w-full max-w-md">
               <source src={data.audio} type="audio/mpeg" />
-              Votre navigateur ne supporte pas l'élément audio.
+              Votre navigateur ne supporte pas l&apos;élément audio.
             </audio>
           </div>
         )}
 
         {/* Détails supplémentaires */}
         <div className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto border-4 border-[#d4af37]" style={{ fontFamily: 'Georgia, serif' }}>
-          <h2 className="text-2xl font-semibold mb-4 text-center">Détails de l'œuvre</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">Détails de l&apos;œuvre</h2>
           <ul className="space-y-2">
             {data.year && (
               <li>
