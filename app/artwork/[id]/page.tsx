@@ -1,11 +1,10 @@
 import { db } from "@/firebaseConfig";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
 import Image from "next/image";
-import { PageProps } from "next";
 
 export const dynamic = "force-dynamic";
 
-interface ArtworkPageProps extends PageProps {
+interface ArtworkPageProps {
   params: {
     id: string;
   };
