@@ -1,17 +1,10 @@
 import { db } from "@/firebaseConfig";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
-import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
-interface ArtworkPageProps {
-  params: {
-    id: string;
-  };
-}
-
-export default async function ArtworkPage({ params }: ArtworkPageProps) {
-  const docRef = doc(db, "artwork", params.id);
+export default async function ArtworkPage({ params }: { params: { id: string } }) {
+  const docRef = doc(db, "arts", params.id);
   const docSnap = await getDoc(docRef);
 
   if (!docSnap.exists()) {
@@ -30,11 +23,9 @@ export default async function ArtworkPage({ params }: ArtworkPageProps) {
 
         {/* Image de l'œuvre */}
         <div className="flex justify-center mb-10">
-          <Image
+          <img
             src={data.image_path}
             alt={data.title}
-            width={800}
-            height={600}
             className="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
           />
         </div>
@@ -49,14 +40,14 @@ export default async function ArtworkPage({ params }: ArtworkPageProps) {
           <div className="flex justify-center mb-10">
             <audio controls className="w-full max-w-md">
               <source src={data.audio} type="audio/mpeg" />
-              Votre navigateur ne supporte pas l&apos;élément audio.
+              Votre navigateur ne supporte pas l'élément audio.
             </audio>
           </div>
         )}
 
         {/* Détails supplémentaires */}
         <div className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto border-4 border-[#d4af37]" style={{ fontFamily: 'Georgia, serif' }}>
-          <h2 className="text-2xl font-semibold mb-4 text-center">Détails de l&apos;œuvre</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">Détails de l'œuvre</h2>
           <ul className="space-y-2">
             {data.year && (
               <li>
