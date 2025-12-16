@@ -4,8 +4,13 @@ import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
-export default async function ArtworkPage({ params }: { params: { id: string } }) {
-  const docRef = doc(db, "artwork", params.id);
+export default async function ArtworkPage({ 
+  params, 
+}: { 
+  params: Promise<{ id: string }> 
+}) {
+  const resolvedParams = await params;
+  const docRef = doc(db, "artwork", resolvedParams.id);
   const docSnap = await getDoc(docRef);
 
   if (!docSnap.exists()) {
