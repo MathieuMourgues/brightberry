@@ -10,16 +10,11 @@ export default async function ArtworkPage({
   params: Promise<{ id: string }> 
 }) {
   const resolvedParams = await params;
-  console.log("ID de l'œuvre recherchée:", resolvedParams.id);
-  
-  const docRef = doc(db, "artwork", resolvedParams.id);
+  const docRef = doc(db, "arts", resolvedParams.id); /* penser a modifier le nom de la collection*/
   const docSnap = await getDoc(docRef);
-  
-  console.log("Document trouvé:", docSnap.exists());
 
   if (!docSnap.exists()) {
-    console.log("Document non trouvé pour l'ID:", resolvedParams.id);
-    return <div className="min-h-screen flex items-center justify-center text-gray-500">Œuvre non trouvée (ID: {resolvedParams.id})</div>;
+    return <div className="min-h-screen flex items-center justify-center text-gray-500">Œuvre non trouvée</div>;
   }
 
   const data = docSnap.data();
