@@ -29,11 +29,9 @@ export default async function ArtworkPage({
 
         {/* Image de l'œuvre */}
         <div className="flex justify-center mb-10">
-          <Image
+          <img
             src={data.image_path}
             alt={data.title}
-            width={800}
-            height={600}
             className="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
           />
         </div>
