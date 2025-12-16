@@ -1,17 +1,10 @@
 import { db } from "@/firebaseConfig";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
 import Image from "next/image";
-import { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 
-interface ArtworkPageProps {
-  params: {
-    id: string;
-  };
-}
-
-export default async function ArtworkPage({ params }: ArtworkPageProps) {
+export default async function ArtworkPage({ params }: { params: { id: string } }) {
   const docRef = doc(db, "artwork", params.id);
   const docSnap = await getDoc(docRef);
 
