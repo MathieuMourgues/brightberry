@@ -1,10 +1,17 @@
 import { db } from "@/firebaseConfig";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
+import Image from "next/image";
 
 export const dynamic = "force-dynamic";
 
-export default async function ArtworkPage({ params }: { params: { id: string } }) {
-  const docRef = doc(db, "arts", params.id);
+interface ArtworkPageProps {
+  params: {
+    id: string;
+  };
+}
+
+export default async function ArtworkPage({ params }: ArtworkPageProps) {
+  const docRef = doc(db, "artwork", params.id);
   const docSnap = await getDoc(docRef);
 
   if (!docSnap.exists()) {
@@ -23,9 +30,11 @@ export default async function ArtworkPage({ params }: { params: { id: string } }
 
         {/* Image de l'œuvre */}
         <div className="flex justify-center mb-10">
-          <img
+          <Image
             src={data.image_path}
             alt={data.title}
+            width={800}
+            height={600}
             className="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
           />
         </div>
