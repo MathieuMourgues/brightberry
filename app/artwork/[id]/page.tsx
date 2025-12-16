@@ -37,7 +37,7 @@ export default async function ArtworkPage({
 
         {/* Description */}
         <div className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 border-4 border-[#d4af37] p-6 rounded-lg" style={{ fontFamily: 'Georgia, serif' }}>
-          <p>{data.description}</p>
+          <p>{data.Description}</p>
         </div>
 
         {/* Lecteur audio */}
@@ -66,7 +66,7 @@ export default async function ArtworkPage({
             )}
             {data.artist && (
               <li>
-                <strong>Artiste :</strong> {data.artist}
+                <strong>Artiste :</strong> {data.author}
               </li>
             )}
           </ul>
