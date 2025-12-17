@@ -3,13 +3,20 @@ import { doc, getDoc, collection, getDocs } from "firebase/firestore";
 
 export const dynamic = "force-dynamic";
 
+interface Question {
+  id: string;
+  text: string;
+  audio_path: string;
+  answer: string;
+}
+
 export default async function ArtworkPage({ 
   params, 
 }: { 
   params: Promise<{ id: string }> 
 }) {
   const resolvedParams = await params;
-  const docRef = doc(db, "arts", resolvedParams.id); /* penser a modifier le nom de la collection*/
+  const docRef = doc(db, "arts", resolvedParams.id);
   const docSnap = await getDoc(docRef);
 
   if (!docSnap.exists()) {
@@ -17,6 +24,19 @@ export default async function ArtworkPage({
   }
 
   const data = docSnap.data();
+
+  // Récupérer la sous-collection "questions"
+  let questions: Question[] = [];
+  try {
+    const questionsCollectionRef = collection(docRef, "questions");
+    const questionsSnapshot = await getDocs(questionsCollectionRef);
+    questions = questionsSnapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    })) as Question[];
+  } catch (error) {
+    console.log("Pas de questions trouvées pour cette œuvre");
+  }
 
   return (
     <div className="min-h-screen bg-[#f8f4e3] text-gray-800">
@@ -37,7 +57,7 @@ export default async function ArtworkPage({
 
         {/* Description */}
         <div className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 border-4 border-[#d4af37] p-6 rounded-lg" style={{ fontFamily: 'Georgia, serif' }}>
-          <p>{data.Description}</p>
+          <p>{data.description}</p>
         </div>
 
         {/* Lecteur audio */}
@@ -47,6 +67,42 @@ export default async function ArtworkPage({
               <source src={data.audio} type="audio/mpeg" />
               Votre navigateur ne supporte pas l&apos;élément audio.
             </audio>
+          </div>
+        )}
+
+        {/* Section Questions et Réponses */}
+        {questions.length > 0 && (
+          <div className="max-w-4xl mx-auto mb-10">
+            <h2 className="text-3xl font-bold text-center mb-8 border-b-4 border-[#d4af37] pb-4" style={{ fontFamily: 'Georgia, serif' }}>Questions et Réponses</h2>
+            <div className="space-y-6">
+              {questions.map((question) => (
+                <div key={question.id} className="bg-white rounded-lg shadow-md border-l-4 border-[#d4af37] p-6">
+                  {/* Titre de la question */}
+                  <h3 className="text-2xl font-semibold mb-4 text-[#d4af37]" style={{ fontFamily: 'Georgia, serif' }}>
+                    {question.text}
+                  </h3>
+
+                  {/* Lecteur audio pour la question */}
+                  {question.audio_path && (
+                    <div className="mb-6 bg-gray-50 p-4 rounded-lg">
+                      <p className="text-sm text-gray-600 mb-3 font-semibold">Écouter la réponse :</p>
+                      <audio controls className="w-full">
+                        <source src={question.audio_path} type="audio/mpeg" />
+                        Votre navigateur ne supporte pas l&apos;élément audio.
+                      </audio>
+                    </div>
+                  )}
+
+                  {/* Réponse textuelle */}
+                  {question.answer && (
+                    <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                      <p className="text-sm text-gray-600 mb-2 font-semibold">Transcription :</p>
+                      <p className="text-gray-800 leading-relaxed">{question.answer}</p>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         )}
 
@@ -66,7 +122,7 @@ export default async function ArtworkPage({
             )}
             {data.artist && (
               <li>
-                <strong>Artiste :</strong> {data.author}
+                <strong>Artiste :</strong> {data.artist}
               </li>
             )}
           </ul>
@@ -77,7 +133,7 @@ export default async function ArtworkPage({
 }
 
 export async function generateStaticParams() {
-  const querySnapshot = await getDocs(collection(db, "artwork"));
+  const querySnapshot = await getDocs(collection(db, "arts"));
   const paths = querySnapshot.docs.map((doc) => ({
     id: doc.id,
   }));
