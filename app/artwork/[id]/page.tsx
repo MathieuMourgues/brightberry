@@ -34,7 +34,7 @@ export default async function ArtworkPage({
       id: doc.id,
       ...doc.data(),
     })) as Question[];
-  } catch (error) {
+  } catch {
     console.log("Pas de questions trouvées pour cette œuvre");
   }
 
