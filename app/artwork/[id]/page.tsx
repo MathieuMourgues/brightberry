@@ -19,7 +19,7 @@ export default async function ArtworkPage({
   const docRef = doc(db, "arts", resolvedParams.id);
   const docSnap = await getDoc(docRef);
 
-  if (!docSnap.exists()) {
+  if (!docSnap.exists() || !docSnap.data().show) {
     return <div className="min-h-screen flex items-center justify-center text-gray-500">Œuvre non trouvée</div>;
   }
 
@@ -122,7 +122,7 @@ export default async function ArtworkPage({
             )}
             {data.artist && (
               <li>
-                <strong>Artiste :</strong> {data.artist}
+                <strong>Artiste :</strong> {data.author}
               </li>
             )}
           </ul>
