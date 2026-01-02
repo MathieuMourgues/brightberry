@@ -39,10 +39,10 @@ export default async function ArtworkPage({
   }
 
   return (
-    <div className="min-h-screen bg-[#f8f4e3] text-gray-800">
+    <div className="min-h-screen bg-cream text-gray-800">
       <div className="container mx-auto px-6 py-20">
         {/* Titre de l'œuvre */}
-        <h1 className="text-5xl font-bold text-center mb-10 border-4 border-[#d4af37] p-4 rounded-lg" style={{ fontFamily: 'Georgia, serif' }}>
+        <h1 className="text-5xl font-bold text-center mb-10 border-4 border-gold p-4 rounded-lg font-serif">
           {data.title}
         </h1>
 
@@ -56,7 +56,7 @@ export default async function ArtworkPage({
         </div>
 
         {/* Description */}
-        <div className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 border-4 border-[#d4af37] p-6 rounded-lg" style={{ fontFamily: 'Georgia, serif' }}>
+        <div className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 border-4 border-gold p-6 rounded-lg font-serif">
           <p>{data.description}</p>
         </div>
 
@@ -73,12 +73,12 @@ export default async function ArtworkPage({
         {/* Section Questions et Réponses */}
         {questions.length > 0 && (
           <div className="max-w-4xl mx-auto mb-10">
-            <h2 className="text-3xl font-bold text-center mb-8 border-b-4 border-[#d4af37] pb-4" style={{ fontFamily: 'Georgia, serif' }}>Questions et Réponses</h2>
+            <h2 className="text-3xl font-bold text-center mb-8 border-b-4 border-gold pb-4 font-serif">Questions et Réponses</h2>
             <div className="space-y-6">
               {questions.map((question) => (
-                <div key={question.id} className="bg-white rounded-lg shadow-md border-l-4 border-[#d4af37] p-6">
+                <div key={question.id} className="bg-white rounded-lg shadow-md border-l-4 border-gold p-6">
                   {/* Titre de la question */}
-                  <h3 className="text-2xl font-semibold mb-4 text-[#d4af37]" style={{ fontFamily: 'Georgia, serif' }}>
+                  <h3 className="text-2xl font-semibold mb-4 text-gold font-serif">
                     {question.text}
                   </h3>
 
@@ -107,7 +107,7 @@ export default async function ArtworkPage({
         )}
 
         {/* Détails supplémentaires */}
-        <div className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto border-4 border-[#d4af37]" style={{ fontFamily: 'Georgia, serif' }}>
+        <div className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto border-4 border-gold font-serif">
           <h2 className="text-2xl font-semibold mb-4 text-center">Détails de l&apos;œuvre</h2>
           <ul className="space-y-2">
             {data.year && (
