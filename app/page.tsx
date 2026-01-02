@@ -1,7 +1,7 @@
 "use client";
 
 import { Analytics } from "@vercel/analytics/next";
-import AnalyzeButton from "./AnalyzeButton";
+import AnalyzeButton from "../components/analyse/AnalyzeButton";
 
 
 export default function Home() {

@@ -131,12 +131,3 @@ export default async function ArtworkPage({
     </div>
   );
 }
-
-export async function generateStaticParams() {
-  const querySnapshot = await getDocs(collection(db, "arts"));
-  const paths = querySnapshot.docs.map((doc) => ({
-    id: doc.id,
-  }));
-
-  return paths;
-}
