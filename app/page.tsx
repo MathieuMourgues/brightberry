@@ -489,8 +489,8 @@ export default function Home() {
               <a href="/Privacy" className="hover:text-white transition-colors">
                 Confidentialité
               </a>
-              <a href="#" className="hover:text-white transition-colors">
-                Conditions
+              <a href="/TermOfService" className="hover:text-white transition-colors">
+                Conditions générales d&apos;utilisation
               </a>
               <a href="#" className="hover:text-white transition-colors">
                 Contact
