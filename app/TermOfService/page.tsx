@@ -39,11 +39,11 @@ export default function TermOfService() {
           <h2 className="text-2xl font-bold mt-8 mb-4 text-gray-900">Section 1 - Introduction and Acceptance of Terms</h2>
 
           <p>
-            Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the "Services"), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont ("we", "us", "our"), under the conditions described below (the "Agreement").
+            Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the &quot;Services&quot;), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), under the conditions described below (the &quot;Agreement&quot;).
           </p>
 
           <p>
-            These Terms of Service ("Terms") govern your access to and use of the Services. They include, among other elements:
+            These Terms of Service (&quot;Terms&quot;) govern your access to and use of the Services. They include, among other elements:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Section 2, which describes the conditions of registration, eligibility, and contract formation;</li>
@@ -74,7 +74,7 @@ export default function TermOfService() {
           <h3 className="text-xl font-bold mt-6 mb-3 text-gray-900">Section 2.1 - Registration and Account Creation</h3>
 
           <p>
-            To access and use certain features of the Services, you must create a user account ("Account"). You may register using:
+            To access and use certain features of the Services, you must create a user account (&quot;Account&quot;). You may register using:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>an email address and password,</li>
