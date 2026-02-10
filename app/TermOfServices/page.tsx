@@ -49,230 +49,250 @@ export default function TermOfServices() {
           <hr className="my-8 border-gray-300" />
 
           {/* Section 1 */}
-          <section>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Section 1: Introduction and Acceptance of Terms</h2>
-            
-            <div className="bg-gray-50 p-6 rounded my-4">
-              <p className="text-black mb-4">
-                Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the &quot;Services&quot;), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), under the conditions described below (the &quot;Agreement&quot;).
-              </p>
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-4">Section 1 – Introduction and Acceptance of Terms</h2>
+          <p className="mb-4">
+            Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the “Services”), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont (“we”, “us”, “our”), under the conditions described below (the “Agreement”).
+          </p>
+          <p className="mb-4">
+            These Terms of Service (“Terms”) govern your access to and use of the Services. They include, among other elements:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Section 2, which describes the conditions of registration, eligibility, and contract formation;</li>
+            <li>Section 3, which explains your rights and responsibilities regarding content you create or interact with;</li>
+            <li>Section 4, which outlines acceptable use and clearly defines prohibited content and behaviors (including our zero-tolerance policy);</li>
+            <li>Section 5, which details moderation, content reporting, and user blocking;</li>
+            <li>Sections 6–12, which include rules on account termination, intellectual property, liability, privacy, updates to the Terms, governing law, and how to contact us.</li>
+          </ul>
+          <p className="mb-4">
+            Your access to and use of the Services is conditioned upon your acceptance of and compliance with these Terms, including our Privacy Policy and Community Guidelines, which form an integral part of this Agreement. By accessing or using the Services, you agree to be bound by all of these documents.
+          </p>
+          <p className="mb-4">
+            We reserve the right to update or modify these Terms at our sole discretion. It is your responsibility to review this page periodically for changes. Your continued use of the Services after any updates constitutes your acceptance of the revised Terms.
+          </p>
+        </section>
 
-              <h3 className="text-xl font-semibold text-black mb-3">What These Terms Include:</h3>
-              <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                <li><strong>Section 2:</strong> Registration, eligibility, and contract formation</li>
-                <li><strong>Section 3:</strong> Your rights and responsibilities regarding content</li>
-                <li><strong>Section 4:</strong> Acceptable use and prohibited content (zero-tolerance policy)</li>
-                <li><strong>Section 5:</strong> Moderation, reporting, and user blocking</li>
-                <li><strong>Sections 6–12:</strong> Termination, IP rights, liability, privacy, and contact</li>
-              </ul>
+        {/* Section 2 */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-4">Section 2 – Registration and Contract</h2>
+          <h3 className="text-xl font-medium mb-2">Section 2.1 – Registration and Account Creation</h3>
+          <p className="mb-4">
+            To access and use certain features of the Services, you must create a user account (“Account”). You may register using:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>an email address and password,</li>
+            <li>a Google account, or</li>
+            <li>an Apple account.</li>
+          </ul>
+          <p className="mb-4">
+            We may add additional authentication providers in the future.
+          </p>
+          <p className="mb-4">
+            When registering, you must provide accurate and complete information and keep it up to date. You are not entitled to registration or continued access to the Services if you violate these Terms. We may refuse or revoke access at our reasonable discretion.
+          </p>
+          <p className="mb-4">
+            Depending on the method used, verification of the email address may not yet be systematically implemented but may be added in the future.
+          </p>
 
-              <div className="bg-yellow-50 border border-yellow-300 p-4 rounded my-4">
-                <p className="text-black font-semibold mb-2">📋 Key Requirements:</p>
-                <p className="text-black">
-                  Your access is conditioned on accepting these Terms, our Privacy Policy, and Community Guidelines. By using the Services, you agree to be bound by all documents.
-                </p>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 2.2 – Passwords and Account Access</h3>
+          <p className="mb-4">
+            If you register using an email and password:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>you are responsible for keeping your login credentials confidential;</li>
+            <li>you agree not to share your password with anyone;</li>
+            <li>you acknowledge that you are responsible for any activity that occurs under your Account.</li>
+          </ul>
+          <p className="mb-4">
+            If you forget your password or wish to change it, you may request assistance by contacting us at contact@brightberry.fr. Automated password reset features may be added in the future.
+          </p>
+          <p className="mb-4">
+            You cannot currently change your login method (e.g., switching from Google login to email login), but this option may be added later.
+          </p>
 
-              <h3 className="text-lg font-semibold text-black mb-3 mt-4">Updates to Terms</h3>
-              <p className="text-black mb-3">
-                We may update these Terms at any time. It&apos;s your responsibility to review changes periodically. Continued use constitutes acceptance of revised Terms.
-              </p>
+          <h3 className="text-xl font-medium mb-2">Section 2.3 – Eligibility</h3>
+          <p className="mb-4">
+            By registering or using the Services, you represent and warrant that:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>you meet the legal age of majority required in your country of residence (generally 18 years old),</li>
+            <li>you have the legal capacity to enter into this Agreement,</li>
+            <li>your use of the Services does not contravene applicable laws.</li>
+          </ul>
+          <p className="mb-4">
+            We may request proof of identity or age when necessary to comply with our obligations or to enhance user safety.
+          </p>
 
-              <h3 className="text-lg font-semibold text-black mb-3 mt-4">Your Rights</h3>
-              <ul className="list-disc list-inside space-y-2 text-black ml-2">
-                <li>Access, save, and print current Terms anytime</li>
-                <li>Review the English contractual version</li>
-                <li>Complete control over your personal data (see Privacy Policy)</li>
-              </ul>
-            </div>
-          </section>
+          <h3 className="text-xl font-medium mb-2">Section 2.4 – Formation of the Contract</h3>
+          <p className="mb-4">
+            A legally binding agreement between you and Brightberry is formed when:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>you create an Account,</li>
+            <li>you check any box or confirmation element indicating acceptance of these Terms,</li>
+            <li>you access or use the Services, including without creating an Account, or</li>
+            <li>all of the above.</li>
+          </ul>
+          <p className="mb-4">
+            If you sign in using Google or Apple authentication, you acknowledge that such login constitutes acceptance of this Agreement, including the Privacy Policy and Community Guidelines.
+          </p>
+          <p className="mb-4">
+            This Agreement remains in effect until your Account is terminated as described in Section 6.
+          </p>
 
-          <hr className="my-8 border-gray-300" />
+          <h3 className="text-xl font-medium mb-2">Section 2.5 – One Account per Person</h3>
+          <p className="mb-4">
+            Users are permitted to create only one personal Account. Creating multiple accounts to evade moderation, circumvent blocking, or manipulate interactions on the Services is prohibited.
+          </p>
+          <p className="mb-4">
+            Brightberry may delete or merge accounts that reasonably appear to be duplicates or created in violation of this rule.
+          </p>
 
-          {/* Section 2 */}
-          <section>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Section 2: Registration and Contract</h2>
+          <h3 className="text-xl font-medium mb-2">Section 2.6 – Account Deletion</h3>
+          <p className="mb-4">
+            In accordance with applicable data protection laws (including the GDPR), you may delete your Account at any time via the in-app option or by contacting us at contact@brightberry.fr.
+          </p>
+          <p className="mb-4">
+            Upon deletion:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>your personal data will be processed or removed in accordance with our Privacy Policy,</li>
+            <li>your public content (such as posts and comments) will remain visible in anonymized form, meaning it no longer allows us to identify you.</li>
+          </ul>
+          <p className="mb-4">
+            Account deactivation (temporary suspension requested by the user) is not currently available.
+          </p>
 
-            <div className="space-y-6">
-              {/* 2.1 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.1 - Registration and Account Creation</h3>
-                <p className="text-black mb-3">
-                  To access certain features, you must create a user account (&quot;Account&quot;). You may register using:
-                </p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>Email address and password</li>
-                  <li>Google account</li>
-                  <li>Apple account</li>
-                </ul>
-                <p className="text-black text-sm text-gray-600 italic">
-                  Note: We may add additional authentication providers in the future. Email verification may be systematically implemented later.
-                </p>
-                <p className="text-black mt-3">
-                  When registering, provide accurate and complete information and keep it updated. You are not entitled to continued access if you violate these Terms.
-                </p>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 2.7 – Paid Features</h3>
+          <p className="mb-4">
+            We may introduce Paid Services in the future, such as one-time feature unlocks.
+          </p>
+          <p className="mb-4">
+            When this occurs:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>the types of Paid Services and their terms will be clearly disclosed,</li>
+            <li>payment methods will be determined at a later stage,</li>
+            <li>any rules related to refunds or obligations from app stores will be specified when the features become available.</li>
+          </ul>
+          <p className="mb-4">
+            Premium content or features may or may not be restricted to paying users, depending on future product decisions.
+          </p>
+        </section>
 
-              {/* 2.2 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.2 - Passwords and Account Access</h3>
-                <p className="text-black mb-3 font-semibold">If using email and password:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>You are responsible for keeping credentials confidential</li>
-                  <li>Never share your password</li>
-                  <li>You are responsible for all activity under your Account</li>
-                </ul>
-                <p className="text-black text-sm text-gray-600">
-                  Need help? Contact contact@brightberry.fr for password assistance. Automated reset features may be added later. Currently, you cannot change login methods, but this option may be added.
-                </p>
-              </div>
+        {/* Section 3 */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold mb-4">Section 3 – User Content & Contribution</h2>
+          <h3 className="text-xl font-medium mb-2">Section 3.1 – Nature of User Content</h3>
+          <p className="mb-4">
+            The Services allow users to create, upload, publish, and interact with “User Content,” which may include, without limitation:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>idea cards composed of images, photos, or other visual material;</li>
+            <li>text descriptions;</li>
+            <li>public comments under idea cards;</li>
+            <li>any other material submitted, displayed, or shared through the Services.</li>
+          </ul>
+          <p className="mb-4">
+            All User Content published through the Services is public by default, unless otherwise indicated.
+          </p>
+          <p className="mb-4">
+            You understand that other users may view, comment on, or interact with your User Content.
+          </p>
 
-              {/* 2.3 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.3 - Eligibility</h3>
-                <p className="text-black mb-3">By registering, you represent that:</p>
-                <ul className="list-disc list-inside space-y-2 text-black ml-2">
-                  <li>You meet the legal age of majority (generally 18 years old)</li>
-                  <li>You have the legal capacity to enter into this Agreement</li>
-                  <li>Your use complies with applicable laws</li>
-                </ul>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 3.2 – Responsibility for User Content</h3>
+          <p className="mb-4">
+            You are solely responsible for the User Content you submit, publish, or share.
+          </p>
+          <p className="mb-4">
+            By submitting User Content, you represent and warrant that:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>you own or have the necessary rights to publish the Content;</li>
+            <li>your Content does not violate any laws or third-party rights (including privacy, publicity, trademark, or copyright);</li>
+            <li>your Content complies with these Terms and our Community Guidelines.</li>
+          </ul>
+          <p className="mb-4">
+            Brightberry does not endorse, monitor, or guarantee the accuracy, safety, or legitimacy of User Content.
+          </p>
+          <p className="mb-4">
+            You acknowledge that you may be exposed to content that is inaccurate, inappropriate, or otherwise objectionable.
+          </p>
 
-              {/* 2.4 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.4 - Formation of Contract</h3>
-                <p className="text-black mb-3">A binding agreement is formed when you:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>Create an Account</li>
-                  <li>Accept these Terms</li>
-                  <li>Access or use the Services</li>
-                </ul>
-                <p className="text-black">Using Google or Apple login constitutes acceptance of the full Agreement, including Privacy Policy and Community Guidelines.</p>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 3.3 – License Granted by the User</h3>
+          <p className="mb-4">
+            By submitting User Content, you grant Brightberry a worldwide, non-exclusive, royalty-free, transferable, sublicensable license to:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>host, store, reproduce, display, distribute, publish, and modify the Content;</li>
+            <li>make the Content available to other users as part of the Services;</li>
+            <li>use the Content for the operation, improvement, and promotion of the Services.</li>
+          </ul>
+          <p className="mb-4">
+            This license remains in effect until you delete your Content or your Account, except where the Content:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>has been shared by other users;</li>
+            <li>has been included in public discussions;</li>
+            <li>is retained in anonymized or aggregated form.</li>
+          </ul>
+          <p className="mb-4">
+            When your Account is deleted or suspended, your User Content may remain online in anonymized form, meaning it no longer allows us to identify you, unless you formally request the permanent deletion of all your data as described below.
+          </p>
 
-              {/* 2.5 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.5 - One Account Per Person</h3>
-                <p className="text-black mb-3">
-                  Users may create only one personal Account. Creating multiple accounts to evade moderation or manipulate interactions is prohibited.
-                </p>
-                <p className="text-black text-sm bg-red-50 border border-red-200 p-2 rounded">
-                  Brightberry may delete or merge accounts that appear to be duplicates.
-                </p>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 3.4 – Right to Request Deletion of User Content and Personal Data</h3>
+          <p className="mb-4">
+            Regardless of anonymization:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>you may request the permanent deletion of all your personal data and User Content at any time by contacting us at contact@brightberry.fr.</li>
+            <li>If your account is not suspended, this request may also be submitted directly through the in-app account deletion feature.</li>
+            <li>If your account has been suspended, the deletion request must be submitted by email.</li>
+          </ul>
+          <p className="mb-4">
+            We will process deletion requests in accordance with applicable data protection laws, including the GDPR.
+          </p>
 
-              {/* 2.6 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.6 - Account Deletion</h3>
-                <p className="text-black mb-3">
-                  Under GDPR and data protection laws, you may delete your Account anytime via the in-app option or by contacting contact@brightberry.fr.
-                </p>
-                <p className="text-black mb-3"><strong>Upon deletion:</strong></p>
-                <ul className="list-disc list-inside space-y-2 text-black ml-2">
-                  <li>Personal data will be processed or removed per our Privacy Policy</li>
-                  <li>Public content remains in anonymized form (non-identifiable)</li>
-                </ul>
-                <p className="text-black text-sm text-gray-600 italic">
-                  Note: Account deactivation (temporary suspension) is not currently available.
-                </p>
-              </div>
+          <h3 className="text-xl font-medium mb-2">Section 3.5 – Compliance with Content Standards</h3>
+          <p className="mb-4">
+            All User Content must comply with the Acceptable Use rules and Prohibited Content policies defined in Section 4 (“Acceptable Use & Prohibited Content”).
+          </p>
+          <p className="mb-4">
+            By submitting content, you acknowledge that you have read Section 4 and agree to abide by all rules and restrictions described therein.
+          </p>
+          <p className="mb-4">
+            If you fail to comply with Section 4, Brightberry reserves the right to remove or anonymize the content, suspend or terminate your account, in accordance with Section 6.
+          </p>
 
-              {/* 2.7 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">2.7 - Paid Features</h3>
-                <p className="text-black mb-3">
-                  We may introduce Paid Services in the future. When available, we will clearly disclose:
-                </p>
-                <ul className="list-disc list-inside space-y-2 text-black ml-2">
-                  <li>Types of Paid Services and terms</li>
-                  <li>Payment methods</li>
-                  <li>Refund policies and app store rules</li>
-                </ul>
-              </div>
-            </div>
-          </section>
+          <h3 className="text-xl font-medium mb-2">Section 3.6 – Public Comments</h3>
+          <p className="mb-4">
+            Comments posted under idea cards are considered User Content and must comply with the same rules.
+          </p>
+          <p className="mb-4">
+            Comments are:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>public,</li>
+            <li>attached to the corresponding card,</li>
+            <li>visible to all users.</li>
+          </ul>
+          <p className="mb-4">
+            Brightberry may remove comments that violate these Terms, and repeated violations may lead to Account suspension as described in Section 6.
+          </p>
 
-          <hr className="my-8 border-gray-300" />
-
-          {/* Section 3 */}
-          <section>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Section 3: User Content & Contribution</h2>
-
-            <div className="space-y-6">
-              {/* 3.1 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.1 - Nature of User Content</h3>
-                <p className="text-black mb-3">The Services allow you to create and share &quot;User Content,&quot; including:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>Idea cards with images and visual material</li>
-                  <li>Text descriptions</li>
-                  <li>Public comments on cards</li>
-                  <li>Any other shared material</li>
-                </ul>
-                <p className="text-black mb-2"><strong>Default:</strong> All content is public</p>
-                <p className="text-black text-sm text-gray-600">Other users can view, comment on, and interact with your content.</p>
-              </div>
-
-              {/* 3.2 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.2 - Your Responsibility for Content</h3>
-                <p className="text-black mb-3">You are solely responsible for your User Content. By submitting, you represent and warrant:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>You own or have rights to publish the content</li>
-                  <li>Content doesn&apos;t violate laws or third-party rights</li>
-                  <li>Content complies with these Terms and Community Guidelines</li>
-                </ul>
-                <p className="text-black text-sm bg-red-50 border border-red-200 p-2 rounded">
-                  Brightberry doesn&apos;t endorse, monitor, or guarantee the accuracy of User Content. You may encounter inaccurate or inappropriate content.
-                </p>
-              </div>
-
-              {/* 3.3 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.3 - License Granted by You</h3>
-                <p className="text-black mb-3">By submitting content, you grant Brightberry a worldwide, royalty-free license to:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>Host, store, and display your content</li>
-                  <li>Make it available to other users</li>
-                  <li>Use it to improve the Services</li>
-                </ul>
-                <p className="text-black text-sm">
-                  This license ends when you delete content or your account, except where it&apos;s shared or retained in anonymized form.
-                </p>
-              </div>
-
-              {/* 3.4 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.4 - Right to Request Content Deletion</h3>
-                <p className="text-black mb-3">You may request permanent deletion of your personal data and content:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>If active: via in-app deletion feature</li>
-                  <li>If suspended: by emailing contact@brightberry.fr</li>
-                  <li>Anytime: via email request</li>
-                </ul>
-                <p className="text-black text-sm">We will comply with GDPR and data protection laws.</p>
-              </div>
-
-              {/* 3.5 & 3.6 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.5 & 3.6 - Compliance and Comments</h3>
-                <p className="text-black mb-3">All content must comply with Section 4 rules. Comments are:</p>
-                <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
-                  <li>Public and attached to cards</li>
-                  <li>Subject to same compliance rules</li>
-                  <li>Subject to removal for violations</li>
-                </ul>
-              </div>
-
-              {/* 3.7 */}
-              <div className="bg-gray-50 p-6 rounded">
-                <h3 className="text-xl font-semibold text-black mb-3">3.7 - Feedback and Suggestions</h3>
-                <p className="text-black">
-                  Any feedback you provide can be used by Brightberry without compensation or confidentiality obligations. This doesn&apos;t affect your User Content rights.
-                </p>
-              </div>
-            </div>
-          </section>
+          <h3 className="text-xl font-medium mb-2">Section 3.7 – Feedback and Suggestions</h3>
+          <p className="mb-4">
+            If you provide Brightberry with any feedback, suggestions, or ideas for improvement, you agree that:
+          </p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>such feedback is provided voluntarily,</li>
+            <li>Brightberry may use it without obligation to compensate you,</li>
+            <li>no confidentiality or ownership rights arise from such feedback.</li>
+          </ul>
+          <p className="mb-4">
+            This does not affect your rights regarding your own User Content.
+          </p>
+        </section>
 
           <hr className="my-8 border-gray-300" />
 
