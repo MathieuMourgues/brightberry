@@ -75,7 +75,7 @@ export default function TermOfServices() {
 
               <h3 className="text-lg font-semibold text-black mb-3 mt-4">Updates to Terms</h3>
               <p className="text-black mb-3">
-                We may update these Terms at any time. It's your responsibility to review changes periodically. Continued use constitutes acceptance of revised Terms.
+                We may update these Terms at any time. It&apos;s your responsibility to review changes periodically. Continued use constitutes acceptance of revised Terms.
               </p>
 
               <h3 className="text-lg font-semibold text-black mb-3 mt-4">Your Rights</h3>
@@ -98,7 +98,7 @@ export default function TermOfServices() {
               <div className="bg-gray-50 p-6 rounded">
                 <h3 className="text-xl font-semibold text-black mb-3">2.1 - Registration and Account Creation</h3>
                 <p className="text-black mb-3">
-                  To access certain features, you must create a user account ("Account"). You may register using:
+                  To access certain features, you must create a user account (&quot;Account&quot;). You may register using:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
                   <li>Email address and password</li>
@@ -202,7 +202,7 @@ export default function TermOfServices() {
               {/* 3.1 */}
               <div className="bg-gray-50 p-6 rounded">
                 <h3 className="text-xl font-semibold text-black mb-3">3.1 - Nature of User Content</h3>
-                <p className="text-black mb-3">The Services allow you to create and share "User Content," including:</p>
+                <p className="text-black mb-3">The Services allow you to create and share &quot;User Content,&quot; including:</p>
                 <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
                   <li>Idea cards with images and visual material</li>
                   <li>Text descriptions</li>
@@ -219,11 +219,11 @@ export default function TermOfServices() {
                 <p className="text-black mb-3">You are solely responsible for your User Content. By submitting, you represent and warrant:</p>
                 <ul className="list-disc list-inside space-y-2 text-black mb-4 ml-2">
                   <li>You own or have rights to publish the content</li>
-                  <li>Content doesn't violate laws or third-party rights</li>
+                  <li>Content doesn&apos;t violate laws or third-party rights</li>
                   <li>Content complies with these Terms and Community Guidelines</li>
                 </ul>
                 <p className="text-black text-sm bg-red-50 border border-red-200 p-2 rounded">
-                  Brightberry doesn't endorse, monitor, or guarantee the accuracy of User Content. You may encounter inaccurate or inappropriate content.
+                  Brightberry doesn&apos;t endorse, monitor, or guarantee the accuracy of User Content. You may encounter inaccurate or inappropriate content.
                 </p>
               </div>
 
@@ -237,7 +237,7 @@ export default function TermOfServices() {
                   <li>Use it to improve the Services</li>
                 </ul>
                 <p className="text-black text-sm">
-                  This license ends when you delete content or your account, except where it's shared or retained in anonymized form.
+                  This license ends when you delete content or your account, except where it&apos;s shared or retained in anonymized form.
                 </p>
               </div>
 
@@ -268,7 +268,7 @@ export default function TermOfServices() {
               <div className="bg-gray-50 p-6 rounded">
                 <h3 className="text-xl font-semibold text-black mb-3">3.7 - Feedback and Suggestions</h3>
                 <p className="text-black">
-                  Any feedback you provide can be used by Brightberry without compensation or confidentiality obligations. This doesn't affect your User Content rights.
+                  Any feedback you provide can be used by Brightberry without compensation or confidentiality obligations. This doesn&apos;t affect your User Content rights.
                 </p>
               </div>
             </div>
@@ -322,7 +322,7 @@ export default function TermOfServices() {
                   <span className="text-red-600 font-bold mr-3">•</span>
                   <div>
                     <p className="font-semibold text-black">Privacy Violations</p>
-                    <p className="text-black text-sm">Sharing others' personal info without consent</p>
+                    <p className="text-black text-sm">Sharing others&apos; personal info without consent</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -356,7 +356,7 @@ export default function TermOfServices() {
                 <li>✓ Share only content you own or have rights to</li>
                 <li>✓ Keep the platform safe (no illegal/dangerous content)</li>
                 <li>✓ Use your identity responsibly</li>
-                <li>✓ Protect privacy (yours and others')</li>
+                <li>✓ Protect privacy (yours and others&apos;)</li>
                 <li>✓ No spam or commercial exploitation</li>
                 <li>✓ Stay within legal boundaries</li>
                 <li>✓ Respect platform integrity</li>
