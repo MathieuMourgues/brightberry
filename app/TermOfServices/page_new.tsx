@@ -54,7 +54,7 @@ export default function TermOfServices() {
             
             <div className="bg-gray-50 p-6 rounded my-4">
               <p className="text-black mb-4">
-                Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the "Services"), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont ("we", "us", "our"), under the conditions described below (the "Agreement").
+                Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the &quot;Services&quot;), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), under the conditions described below (the &quot;Agreement&quot;).
               </p>
 
               <h3 className="text-xl font-semibold text-black mb-3">What These Terms Include:</h3>
