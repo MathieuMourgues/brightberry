@@ -277,7 +277,7 @@ export default function TermOfServices() {
           <hr className="my-8 border-gray-300" />
 
         {/* Section 4 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 4 – Acceptable Use & Prohibited Content</h2>
           <h3 className="text-xl font-medium mb-2">Section 4.1 – General Principles</h3>
           <p className="mb-4">
@@ -465,7 +465,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 5 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 5 – Moderation, Reporting & Blocking</h2>
           <h3 className="text-xl font-medium mb-2">Section 5.1 – Overview of Moderation</h3>
           <p className="mb-4">
@@ -583,7 +583,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 6 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 6 – Account Suspension, Termination & Content Removal</h2>
           <h3 className="text-xl font-medium mb-2">Section 6.1 – Reasons for Suspension or Termination</h3>
           <p className="mb-4">
@@ -734,7 +734,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 7 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 7 – Intellectual Property & Rights</h2>
           <h3 className="text-xl font-medium mb-2">Section 7.1 – Ownership of the Services</h3>
           <p className="mb-4">
@@ -857,7 +857,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 8 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 8 – Liability, Disclaimers & Warranties</h2>
           <h3 className="text-xl font-medium mb-2">Section 8.1 – “As Is” and “As Available” Basis</h3>
           <p className="mb-4">
@@ -972,7 +972,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 9 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 9 – Privacy & Data Protection</h2>
           <h3 className="text-xl font-medium mb-2">Section 9.1 – Reference to the Privacy Policy</h3>
           <p className="mb-4">
@@ -1113,7 +1113,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 10 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 10 – Modification of Terms</h2>
           <h3 className="text-xl font-medium mb-2">Section 10.1 – Right to Modify the Terms</h3>
           <p className="mb-4">
@@ -1161,7 +1161,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 11 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 11 – Governing Law & Dispute Resolution</h2>
           <h3 className="text-xl font-medium mb-2">Section 11.1 – Governing Law</h3>
           <p className="mb-4">
@@ -1216,7 +1216,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 12 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 12 – Contact Information</h2>
           <p className="mb-4">
             If you have any questions about these Terms, the Services, your Account, your personal data, or if you need assistance, you may contact us at:
@@ -1232,21 +1232,6 @@ export default function TermOfServices() {
             We will make reasonable efforts to respond within a reasonable timeframe, depending on the nature of your request.
           </p>
         </section>
-
-          <hr className="my-8 border-gray-300" />
-
-          {/* Contact */}
-          <section className="bg-gray-900 text-white p-8 rounded">
-            <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-            <div className="space-y-3">
-              <p><strong>Company:</strong> Brightberry</p>
-              <p><strong>SIREN:</strong> 943 427 831 (R.C.S. Toulon)</p>
-              <p><strong>Address:</strong> 410 Avenue des Sènes, 83210 Solliès-Pont, France</p>
-              <p><strong>Email:</strong> <a href="mailto:contact@brightberry.fr" className="text-blue-300 hover:underline">contact@brightberry.fr</a></p>
-              <p><strong>Website:</strong> <a href="https://brightberry.fr" className="text-blue-300 hover:underline">https://brightberry.fr</a></p>
-            </div>
-            <p className="mt-4 text-sm text-gray-300">We respond to inquiries within a reasonable timeframe.</p>
-          </section>
         </div>
       </div>
     </div>
