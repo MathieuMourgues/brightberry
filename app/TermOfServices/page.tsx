@@ -49,7 +49,7 @@ export default function TermOfServices() {
           <hr className="my-8 border-gray-300" />
 
           {/* Section 1 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 1 – Introduction and Acceptance of Terms</h2>
           <p className="mb-4">
             Welcome! By registering and using our websites, services, mobile applications, developer platform, or any content or functionality provided as part of these services (collectively, the “Services”), you agree to enter into a legally binding agreement with Brightberry, a company registered in France and located at 410 Avenue des Senes, 83210 Solliès-Pont (“we”, “us”, “our”), under the conditions described below (the “Agreement”).
@@ -73,7 +73,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 2 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 2 – Registration and Contract</h2>
           <h3 className="text-xl font-medium mb-2">Section 2.1 – Registration and Account Creation</h3>
           <p className="mb-4">
@@ -181,7 +181,7 @@ export default function TermOfServices() {
         </section>
 
         {/* Section 3 */}
-        <section className="mb-10">
+        <section className="mb-10 text-gray-900">
           <h2 className="text-2xl font-semibold mb-4">Section 3 – User Content & Contribution</h2>
           <h3 className="text-xl font-medium mb-2">Section 3.1 – Nature of User Content</h3>
           <p className="mb-4">
